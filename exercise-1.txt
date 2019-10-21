@@ -1,0 +1,83 @@
+soal 1
+
+Pseudocode
+
+STORE "m" with 600
+STORE "a" with 2
+STORE "f" without any value
+
+CALCULATE "m" times "a"
+SET f value with calculation result
+
+DISPLAY "f"
+
+Algoritma 
+
+1. Masukkan variable m dengan nilai 600
+2. Masukkan variable a dengan nilai 2
+3. Masukkan variable f tanpa nilai
+4. Hitung nilai variable m dikali dengan variable a 
+5. Hasil dari perhitungan masukkan ke dalam variable f  
+6. Hasil dari perhitungan akan ditampilkan dengan menggunakan DISPLAY
+
+soal 2
+
+Pseudocode
+
+STORE "year" with any value
+IF "year mod 4 equal 0" 
+AND "year mod 100 not equal 0" 
+OR "year mod 4 equal 0" AND "year mod 100 equal 0" AND "year mod 400 equal 0"
+DO year "Tahun Kabisat"
+ELSE DO "Bukan Tahun Kabisat"
+
+Algoritma
+
+1. Masukkan variable year dengan nilai apapun
+2. Dengan menggunakan kondisi IF masukkan variable year dengan mod 4 sama dengan 0
+3. Hubungkan kondisi IF dengan AND, lalu masukkan variable year dengan mod 100 tidak sama dengan 0
+4. Hubungkan kembali dengan OR variable year dengan mod 4 sama dengan 0 lalu hubungkan dengan AND variable year dengan mod 100 sama dengan 0 lalu hubungkan dengan AND varible year mod 4000 sama dengan 0
+5. Kondisi Do akan menampilkan Tahun Kabisat jika kondisi terpenuhi
+6. Kondisi Do akan menampilkan Bukan Tahun Kabisat jika kondisi tidak terpenuhi
+
+soal 3
+
+Pseudocode
+
+STORE "pakaian" with 0
+
+WHILE "pakaian" < 20
+ADD "pakaian" by 1
+
+DISPLAY "Washing Machine On"
+
+Algoritma
+
+1. Masukkan variable pakaian dengan nilai 0
+2. Lakukan looping dengan kondisi WHILE, Ketika variable pakaian mempunyai nilai dibawah 20 maka tambahkan nilai variable pakaian dengan ADD sebanyak 1
+3. Ketika nilai dari variable pakaian telah mencapai 20, maka proses looping akan berhenti dan akan muncul "Washing Machine On" dengan menggunakan DISPLAY
+
+soal 4
+
+Pseudocode
+
+READ AND SAVE "students" by 40 length
+STORE "urutanStudents" by 0
+WHILE "urutanStudents" less than "students" length
+ IF "students" "nail" EQUAL "panjang" THEN
+   DISPLAY "hukum"
+ ELSE IF "students" "nail" EQUALS "pendek" THEN
+   DISPLAY "puji"
+ END IF
+ ADD "urutanStudents" by 1
+ENDWHILE
+
+Algoritma
+
+1. Baca dan simpan variablestudents dengan length 40 
+2. Masukkan variable urutanstudents dengan nilai 0
+3. Lakukan looping dengan kondisi WHILE ketika variable urutanstudents kurang dari students length
+4. Gunakan kondisi IF students nail sama dengan panjang lalu tampilkan dengan DISPLAY hukum
+5. Hubungkan dengan ELSE IF students nail sama dengan pendek maka tampilkan puji dengan DISPLAY
+6. Tutup kondisi IF dengan END IF
+7. Tambahkan urutanStudents sebanyak 1 dengan ADD jika looping belum terpenuhi dan tutup dengan ENDWHILE ketika kondisi telah terpenuhi.  
