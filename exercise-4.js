@@ -1,6 +1,6 @@
-var tanggal       = "30" ;
-var bulan         = "1" ;
-var tahun         = "1945" ;
+var tanggal       = "28" ;
+var bulan         = "2" ;
+var tahun         = "2013" ;
 
 
 switch(bulan) {
@@ -46,14 +46,17 @@ switch(bulan) {
 } 
 
 var formatTanggal = tanggal + " " + bulan + " " + tahun; 
-if(tanggal <= "29" && bulan === "Februari" ) {
+if((tahun % 4 === 0) && (tahun % 100 !== 0 || tahun % 100 === 0 || tahun % 400 === 0) && (tanggal >="1") && (tanggal <= "29") && (bulan === "Februari") && (tahun >= "1900") && (tahun <= "2200")){
     console.log(formatTanggal);
 }
-else if (tanggal <= "31" && bulan === "Januari" || bulan === "Maret" || bulan === "Mei" || bulan === "Juli" || bulan === "Agustus" || bulan=== "Oktober" || bulan === "Desember" )
+else if((tanggal >="1") && (tanggal <= "28") && (bulan === "Februari") && (tahun >= "1900") && (tahun <= "2200")) {
+    console.log(formatTanggal);
+}
+else if ((tanggal >="1") && (tanggal <= "30") && (bulan === "April" || bulan === "Juni" || bulan === "September" || bulan === "November") && (tahun >= "1900") && (tahun <= "2200"))
 {
     console.log(formatTanggal);
 }
-else if (tanggal <= "30" && bulan === "April" || bulan === "Juni" || bulan === "September" || bulan === "November")
+else if ((tanggal >="1") && (tanggal <= "31") && (bulan === "Januari" ||bulan === "Maret" || bulan === "Mei" || bulan === "Juli" || bulan === "Agustus" || bulan=== "Oktober" || bulan === "Desember") && (tahun >= "1900") && (tahun <= "2200"))
 {
     console.log(formatTanggal);
 }
