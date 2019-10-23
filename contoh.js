@@ -3,7 +3,7 @@ Masukkan nama karakter
 Pilih salah satu peran sebagai Kstria, Tabib, ataupun Penyihir
 */ 
 
-var nama = "fajar";
+/* var nama = "fajar";
 var peran = "TABIB";
 
 if (nama === ""){
@@ -35,3 +35,13 @@ else if(nama !== "" && peran !== "" || peran === Penyihir) {
     else {
         console.log('Peraa')
     }
+*/
+
+var baju = 0
+var totalBaju = 20
+
+while(baju < 20){
+    baju = baju + 1;
+    console.log(`${baju} sudah diMasukkan Baju`);
+}
+console.log('mesin nyala');

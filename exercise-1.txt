@@ -61,23 +61,23 @@ soal 4
 
 Pseudocode
 
-READ AND SAVE "students" by 40 length
-STORE "urutanStudents" by 0
-WHILE "urutanStudents" less than "students" length
- IF "students" "nail" EQUAL "panjang" THEN
+
+STORE "jumlahMurid" = 40
+WHILE "jumlahMurid" < 40 
+ IF "kukuMurid" = "panjang" THEN
    DISPLAY "hukum"
- ELSE IF "students" "nail" EQUALS "pendek" THEN
+ ELSE IF "kukuMurid" = "pendek" THEN
    DISPLAY "puji"
  END IF
- ADD "urutanStudents" by 1
+ SET "jumlahMurid" WITH "jumlahMurid" - 1
 ENDWHILE
 
 Algoritma
 
-1. Baca dan simpan variablestudents dengan length 40 
-2. Masukkan variable urutanstudents dengan nilai 0
-3. Lakukan looping dengan kondisi WHILE ketika variable urutanstudents kurang dari students length
-4. Gunakan kondisi IF students nail sama dengan panjang lalu tampilkan dengan DISPLAY hukum
-5. Hubungkan dengan ELSE IF students nail sama dengan pendek maka tampilkan puji dengan DISPLAY
-6. Tutup kondisi IF dengan END IF
-7. Tambahkan urutanStudents sebanyak 1 dengan ADD jika looping belum terpenuhi dan tutup dengan ENDWHILE ketika kondisi telah terpenuhi.  
+1. Masukkan variable jumlahMurid dengan nilai 40
+2. Lakukan looping dengan kondisi WHILE ketika variable jumlahMurid kurang dari 40
+3. Gunakan kondisi IF kukuMurid sama dengan panjang lalu tampilkan dengan DISPLAY hukum
+4. Hubungkan dengan ELSE IF kukuMurid sama dengan pendek maka tampilkan puji dengan DISPLAY
+5. Tutup kondisi IF dengan END IF
+6. jumlahMurid dikurangkan 1.
+7. masukkan ENDWHILE untuk menutup WHILE.  
