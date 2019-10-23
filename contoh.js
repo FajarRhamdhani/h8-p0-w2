@@ -45,3 +45,21 @@ while(baju < 20){
     console.log(`${baju} sudah diMasukkan Baju`);
 }
 console.log('mesin nyala');
+
+
+// var coloum=0;
+// for(rows2=1; rows2<=5; rows2++){
+//     for(rows2_1=1; rows2_1<=rows2; rows2_1++){
+//         console.log(rows2_1)  
+//         coloum=coloum+rows2_1;
+//     }
+//     console.log(coloum);
+// }
+
+for(i=2; i<=5; i++){
+    var tes="a";
+    for(a=0; a>=i; a++){
+    tes= tes+ "*";
+    }
+    console.log(tes);
+}
